@@ -496,7 +496,7 @@ main {
 /*==================== NAVEGATION ====================*/
 
 .nav {
-	height: 3rem;
+	height: 3.1rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -561,11 +561,13 @@ main {
 }
 
 .nav__menu-mobile .nav__item:nth-child(4n) {
-	width: 200%;
+	position: relative;
+	left: 52%;
 }
 
 .nav__menu-mobile .nav__item:nth-child(5n) {
-	width: 211.5%;
+	position: relative;
+	left: 57%;
 }
 
 .nav__icon {
@@ -839,16 +841,21 @@ main {
 
 .portfolio__title {
 	margin-top: var(--mb-2);
-	margin-bottom: 0.2rem;
 }
 
 .portfolio__description {
 	width: 100%;
 	white-space: nowrap;
+	margin-top: var(--mb-1);
 }
 
 .portfolio__button:hover .button__icon {
 	transform: translateX(0.25rem);
+}
+
+.portfolio__button-first {
+	background-color: var(--scroll-bar-header-color);
+	pointer-events: none;
 }
 
 .portfolio__img,
@@ -876,6 +883,11 @@ main {
 .portfolio__button:hover .button__icon {
 	transform: translateX(0.1rem);
 	transition: 0.3s;
+}
+
+.swiper img {
+	width: 55vw;
+	max-height: 300px;
 }
 
 .swiper-slide {
@@ -1218,13 +1230,11 @@ main {
 
 #about__buttons-lg1 {
 	position: absolute;
-	z-index: 9999;
 	bottom: 3.5rem;
 }
 
 .about__buttons > a > span {
 	position: absolute;
-	z-index: 9999;
 	bottom: 1.3rem;
 }
 
@@ -1232,7 +1242,6 @@ main {
 	font-size: 1.7rem;
 	transition: all 0.1s;
 	position: absolute;
-	z-index: 9999;
 	bottom: -0.9rem;
 }
 
@@ -1258,6 +1267,7 @@ main {
 	right: 0;
 	top: -1.8em;
 	width: 0;
+	z-index: -1;
 }
 #hexagono:after {
 	border-top: 2em solid var(--first-color);
@@ -1270,6 +1280,7 @@ main {
 	position: absolute;
 	right: 0;
 	width: 0;
+	z-index: -1;
 }
 
 /*==================== CONTACT ME ====================*/
@@ -1793,7 +1804,7 @@ main {
 
 	.about > h2 {
 		margin-top: -1rem;
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
 	}
 
 	.about__container {
