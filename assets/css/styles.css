@@ -508,19 +508,8 @@ main {
 /*==================== SKIP NAVEGATION ====================*/
 
 .skip-nav {
-	position: absolute;
-	z-index: 9999;
-	display: flex;
-	justify-content: left;
-	top: -797px;
-	left: 12px;
-	transform: translateY(-1020%);
+	display: none;
 }
-
-.skip-nav:focus {
-	transform: translateY(0%);
-}
-
 /*==================== NAVEGATION ====================*/
 
 .nav {
@@ -1561,6 +1550,22 @@ main {
 		--small-font-size: 0.875rem;
 		--smaller-font-size: 0.813rem;
 	}
+	/*==================== SKIP NAV ====================*/
+
+	.skip-nav {
+	position: absolute;
+	z-index: 9999;
+	display: flex;
+	justify-content: left;
+	top: -797px;
+	left: 12px;
+	transform: translateY(-1020%);
+}
+
+.skip-nav:focus {
+	transform: translateY(0%);
+}
+
 
 	/*==================== BASE ====================*/
 
