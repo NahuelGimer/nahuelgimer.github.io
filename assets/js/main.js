@@ -1,10 +1,14 @@
 
 /*==================== PRELOAD ====================*/
 
+/*
 document.getElementById("about-en").classList.add("about-on");
 document.getElementById("about-en").classList.remove("about-off");
 document.getElementById("about-es").classList.add("about-off");
 document.getElementById("about-es").classList.remove("about-on");
+*/
+
+navLanguage()
 
 /*==================== MENU SHOW Y HIDDEN ====================*/
 let navToggleOpen = false;
