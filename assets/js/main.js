@@ -8,8 +8,6 @@ document.getElementById("about-es").classList.add("about-off");
 document.getElementById("about-es").classList.remove("about-on");
 */
 
-navLanguage()
-
 /*==================== MENU SHOW Y HIDDEN ====================*/
 let navToggleOpen = false;
 
