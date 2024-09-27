@@ -114,12 +114,6 @@
 	cursor: pointer;
 }
 
-.nav__language > .fa-e,
-.nav__language > .fa-n,
-.nav__language > .fa-s {
-display:none;
-}
-
 .nav__language:hover > .fa-e,
 .nav__language:hover > .fa-n,
 .nav__language:hover > .fa-s {
