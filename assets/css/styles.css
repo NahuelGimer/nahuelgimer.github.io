@@ -115,7 +115,8 @@
 }
 
 .nav__language > .fa-e,
-.nav__language > .fa-n {
+.nav__language > .fa-n,
+.nav__language > .fa-s {
 display:none;
 }
 
