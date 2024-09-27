@@ -1,12 +1,10 @@
 
 /*==================== PRELOAD ====================*/
 
-/*
 document.getElementById("about-en").classList.add("about-on");
 document.getElementById("about-en").classList.remove("about-off");
 document.getElementById("about-es").classList.add("about-off");
 document.getElementById("about-es").classList.remove("about-on");
-*/
 
 /*==================== MENU SHOW Y HIDDEN ====================*/
 let navToggleOpen = false;
@@ -59,12 +57,10 @@ let navLanguageOpen = false;
 function navLanguage() {
 	navLanguageOpen = !navLanguageOpen;
 	if (navLanguageOpen) {
-		/*
 		document.getElementById("nav__language_letter-changer").classList.remove("fa-e");
 		document.getElementById("nav__language_letter-changer").classList.add("fa-s");
 		document.getElementById("nav__language_letter-static").classList.remove("active-lg");
-		document.getElementById("nav__language_letter-changer").classList.remove("active-lg");
-		*/		
+		document.getElementById("nav__language_letter-changer").classList.remove("active-lg");	
   		/*
 		document.getElementById('contact__status__ok-lg').innerText =
 			'Gracias por tu mensaje, me pondré en contacto contigo en la brevedad.';
@@ -147,12 +143,10 @@ function navLanguage() {
 		*/
 	} else {
 		
-		*/
 		document.getElementById("nav__language_letter-static").classList.add("active-lg");
 		document.getElementById("nav__language_letter-changer").classList.add("active-lg");
 		document.getElementById("nav__language_letter-changer").classList.add("fa-e");
 		document.getElementById("nav__language_letter-changer").classList.remove("fa-s");
-		*/
 
 		/*
 		document.getElementById('contact__status__ok-lg').innerText =
