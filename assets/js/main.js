@@ -89,7 +89,7 @@ function navLanguage() {
 		document.getElementById("contact-lg-desk").innerText = "Contáctame";
 
 		/*==================== HOME ====================*/
-		document.getElementById("home__subtitle-lg").innerText = "Desarrollador Full Stack, UX/UI";
+		document.getElementById("home__subtitle-lg").innerText = "Desarrollador Full Stack";
 		/*document.getElementById('home__description-lg1').innerText =
 			'Enfocado en conocer la impresión del cliente';
 		document.getElementById('home__description-lg2').innerText =
@@ -175,7 +175,7 @@ function navLanguage() {
 		document.getElementById("contact-lg-desk").innerText = "Contact Me";
 
 		/*==================== HOME ====================*/
-		document.getElementById("home__subtitle-lg").innerText = "Full Stack Developer, UX/UI";
+		document.getElementById("home__subtitle-lg").innerText = "Full Stack Developer";
 		/*document.getElementById('home__description-lg1').innerText = 'Focused in learn the impression';
 		document.getElementById('home__description-lg2').innerText = 'of the client inside the web,';
 		document.getElementById('home__description-lg3').innerText = 'to enhance their user experience.';*/
