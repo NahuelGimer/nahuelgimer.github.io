@@ -271,7 +271,7 @@
 
 @keyframes skills-up-design {
 	from {
-		height: 80px;
+		height: 136px;
 		margin-bottom: 3rem;
 	}
 	to {
@@ -290,7 +290,7 @@
 		height: 0px;
 	}
 	to {
-		height: 180px;
+		height: 136px;
 	}
 }
 
